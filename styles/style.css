@@ -1,0 +1,103 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+  margin: 0 0 0 20%;
+  font-family: 'Catamaran', sans-serif;
+  background-image: url('http://thewongcouple.com/our-wedding/images/CinemaBackground.jpg');
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  margin: 0 0 0 10px;
+  color: gold;
+}
+
+h4 {
+  font-family: 'Indie Flower', cursive;
+  margin: 0 0 0 11px;
+  font-size: 17px;
+  color: red;
+}
+
+input {
+  font-size: 14px;
+  height: 21px;
+}
+
+input.add-movie-form {
+  margin: 10px 10px 0px 10px;
+  padding: 0 0 0 5px;
+  width: 700px;
+}
+
+input.search-bar-form {
+  margin: 5px 10px;
+  padding: 0 0 0 5px;
+  width: 500px;
+}
+
+button {
+  font-family: monospace;
+  color: white;
+  border: none;
+  hover: auto;
+  margin: -10px 0 0 0;
+  width: 90px;
+  height: 25px;
+}
+
+button.search-bar-submit {
+  background-color: blue;
+}
+
+button.search-bar-submit:hover {
+  background-color: darkblue;
+}
+
+button.add-movie-button {
+  background-color: green;
+}
+
+button.add-movie-button:hover {
+  background-color: darkgreen;
+}
+
+button.search-bar-watched {
+  margin: 0 0 0 10px;
+  color: black;
+  background-color: lightgray;
+}
+
+button.search-bar-watched:hover {
+  background-color: darkgray;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#movie-list-entry {
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid black;
+  margin: 5px 10px;
+  padding: 0 10px 0px 5px;
+  width: 800px;
+  height: 20px;
+}
+
+li.unwatched {
+  display: block;
+  background-color: white;
+}
+
+li.watched {
+  background-color: lightgreen;
+}
+
+span {
+  float: right;
+  font-size: 16px;
+}

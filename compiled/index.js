@@ -1,0 +1,8 @@
+'use strict';
+
+// TODO: Render the `App` component to the DOM
+var movies = [];
+
+// ReactDOM.render(<App movies={movies}/>, document.getElementById('app'));
+ReactDOM.render(React.createElement(App, { movies: movies }), document.getElementById('app'));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJtb3ZpZXMiLCJSZWFjdERPTSIsInJlbmRlciIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQSxJQUFJQSxTQUFTLEVBQWI7O0FBRUE7QUFDQUMsU0FBU0MsTUFBVCxDQUFnQixvQkFBQyxHQUFELElBQUssUUFBUUYsTUFBYixHQUFoQixFQUF3Q0csU0FBU0MsY0FBVCxDQUF3QixLQUF4QixDQUF4QyIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIFRPRE86IFJlbmRlciB0aGUgYEFwcGAgY29tcG9uZW50IHRvIHRoZSBET01cbnZhciBtb3ZpZXMgPSBbXVxuXG4vLyBSZWFjdERPTS5yZW5kZXIoPEFwcCBtb3ZpZXM9e21vdmllc30vPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcCcpKTtcblJlYWN0RE9NLnJlbmRlcig8QXBwIG1vdmllcz17bW92aWVzfS8+LCBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYXBwJykpOyJdfQ==

@@ -1,0 +1,21 @@
+{
+  "name": "listapp",
+  "version": "1.0.0",
+  "description": "Movie list app. Take 3.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel . --out-dir compiled --presets=env,react --ignore=node_modules,compiled,package.json,package-lock.json --source-maps inline --watch"
+  },
+  "author": "Jerry Wu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

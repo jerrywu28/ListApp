@@ -1,0 +1,12 @@
+"use strict";
+
+var MovieList = function MovieList(props) {
+  return React.createElement(
+    "div",
+    null,
+    props.movies.map(function (movie, index) {
+      return React.createElement(MovieListEntry, { movie: movie, key: index });
+    })
+  );
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb21wb25lbnRzL01vdmllTGlzdC5qc3giXSwibmFtZXMiOlsiTW92aWVMaXN0IiwicHJvcHMiLCJtb3ZpZXMiLCJtYXAiLCJtb3ZpZSIsImluZGV4Il0sIm1hcHBpbmdzIjoiOztBQUFBLElBQUlBLFlBQVksU0FBWkEsU0FBWSxDQUFDQyxLQUFEO0FBQUEsU0FFWjtBQUFBO0FBQUE7QUFDR0EsVUFBTUMsTUFBTixDQUFhQyxHQUFiLENBQWlCLFVBQUNDLEtBQUQsRUFBUUMsS0FBUjtBQUFBLGFBQ2hCLG9CQUFDLGNBQUQsSUFBZ0IsT0FBT0QsS0FBdkIsRUFBOEIsS0FBS0MsS0FBbkMsR0FEZ0I7QUFBQSxLQUFqQjtBQURILEdBRlk7QUFBQSxDQUFoQiIsImZpbGUiOiJNb3ZpZUxpc3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgTW92aWVMaXN0ID0gKHByb3BzKSA9PlxuICAoXG4gICAgPGRpdj5cbiAgICAgIHtwcm9wcy5tb3ZpZXMubWFwKChtb3ZpZSwgaW5kZXgpID0+IFxuICAgICAgICA8TW92aWVMaXN0RW50cnkgbW92aWU9e21vdmllfSBrZXk9e2luZGV4fS8+XG4gICAgICApfVxuICAgIDwvZGl2PlxuICApIl19
